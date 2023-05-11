@@ -18,6 +18,7 @@ header {
   box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
   -webkit-box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
+  z-index: 400;
 }
 
 header ul {
@@ -173,6 +174,10 @@ h1 {
   justify-content: center;
 }
 
+.carta-column h3 {
+  font-size: 1.5vw;
+}
+
 .carta-row {
   display: flex;
   flex-direction: row;
@@ -191,38 +196,34 @@ h1 {
 }
 
 .menu-buttons {
+  font-size: 1.3vw;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 .price {
-  width: 25%;
+  width: 50%;
   color: #000000;
+  margin: 2vw 0%;
   background-color: #f08bc8;
-  margin: 2vw 0vw 0vw 7vw;
   display: flex;
   justify-content: center;
   position: relative;
-  z-index: 300000;
+  z-index: 300;
+}
+
+.details {
+  width: 9%;
+  color: #000000;
+  margin: 2vw 0%;
+  background-color: #e7a924;
+  display: flex;
+  justify-content: center;
+  position: absolute;
 }
 
 .price:hover {
   display: none;
-}
-
-.details:hover {
-  display: flex;
-}
-
-.details {
-  display: none;
-  width: 4.7%;
-  color: #000000;
-  background-color: #f08bc8;
-  margin: 2vw 0vw 0vw 7vw;
-  display: flex;
-  justify-content: center;
-  position: absolute;
 }
 
 .light-gray {
