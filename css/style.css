@@ -9,8 +9,8 @@
   padding: 0px;
 }
 
-header {
-  height: 85px;
+.navbar {
+  height: auto;
   width: 100%;
   background-color: #f9f9f9;
   position: sticky;
@@ -19,18 +19,6 @@ header {
   -webkit-box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
   z-index: 400;
-}
-
-header ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-header ul li {
-  list-style-type: none;
 }
 
 #active {
@@ -42,21 +30,16 @@ a {
 }
 
 #logo {
-  height: 3.8vw;
+  height: 5rem;
   width: auto;
-  margin: 0.3vw 0px;
-}
-
-#shoppingCart {
-  height: auto;
-  width: 2vw;
+  margin: 0.3vw 0vw 0.3vw 0.3vw;
 }
 
 #hero {
-  height: 704px;
+  height: 36.5vw;
   width: 100%;
   background-color: #ffc3e7;
-  margin-bottom: 60px;
+  margin-bottom: 3.1vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -64,10 +47,10 @@ a {
 }
 
 #hero2 {
-  height: 560px;
+  height: 29vw;
   width: 100%;
   background-color: #ffc3e7;
-  margin-bottom: 60px;
+  margin-bottom: 3.1vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +76,7 @@ h1 {
 }
 
 .maroon {
-  color: #a9262c;
+  color: #a9262c !important;
   font-weight: 600;
 }
 
@@ -101,7 +84,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0px 8vw;
+  padding: 0vh 8vw;
   margin-bottom: 60px;
 }
 
@@ -187,7 +170,7 @@ h1 {
 .producto-individual {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 1.03vw;
 }
 
 .producto-individual img {
@@ -346,13 +329,13 @@ h1 {
   height: 309px;
   width: 100%;
   background-color: #ffc3e7;
-  margin-top: 60px;
+  margin-top: 3.1vw;
   display: flex;
   flex-direction: row;
 }
 
 #upperFooter img {
-  height: 80px;
+  height: 4.1vw;
   width: auto;
 }
 
@@ -361,16 +344,17 @@ h1 {
 }
 
 #socialsFooter {
-  width: 1431px;
+  width: 74.2vw;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: right;
   margin-right: 3vw;
 }
 
 #lowerFooter {
-  height: 36px;
+  height: 1.8vw;
   width: 100%;
   background-color: #f08bc8;
   display: flex;
@@ -378,5 +362,6 @@ h1 {
 }
 
 #lowerFooter p {
-  padding: 1% 0% 0% 0.7%;
+  margin: 1% 0.7%;
+  font-size: 0.77vw;
 }

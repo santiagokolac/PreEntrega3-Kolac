@@ -13,15 +13,40 @@
     </head>
     <body>
         <header>
-            <ul>
-                <li><a href="../index.html" class="maroon">INICIO</a></li>
-                <li><a href="carta.html" class="maroon">CARTA</a></li>
-                <li><a href="galeria.html" class="maroon">GALERIA</a></li>
-                <img id= "logo" src="../images/pdf-logo-cuadrado.png" alt="logo">
-                <li><a href="sorteo-mensual.html" class="maroon">SORTEO MENSUAL</a></li>
-                <li><a href="contacto.html" id="active" class="maroon">CONTACTO</a></li>
-                <img id="shoppingCart" src="../images/shopping-cart.png" alt="shopping-cart">
-            </ul>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html"><img src="../images/pdf-logo-cuadrado.png" id="logo" alt="logo"></a>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item mx-5 ms-3">
+                    <a class="nav-link active maroon" aria-current="page" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item mx-5 ms-3">
+                    <a class="nav-link maroon" href="carta.html">CARTA</a>
+                  </li>
+                  <li class="nav-item mx-5 ms-3">
+                    <a class="nav-link maroon" href="galeria.html">GALERIA</a>
+                    <li class="nav-item mx-5 ms-3">
+                      <a class="nav-link maroon" href="sorteo-mensual.html">SORTEO MENSUAL</a>
+                    </li>
+                    <li class="nav-item mx-5 ms-3">
+                      <a class="nav-link maroon" id="active" href="contacto.html">CONTACTO</a>
+                    </li>            
+                </ul>
+              </div>
+            </div>
+          </nav>
         </header>
         <main>
             <section id="hero2">
