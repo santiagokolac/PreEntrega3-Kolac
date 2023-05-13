@@ -85,7 +85,7 @@ h1 {
   flex-direction: row;
   justify-content: center;
   padding: 0vh 8vw;
-  margin-bottom: 60px;
+  margin-bottom: 3.1vw;
 }
 
 #quienesSomos img {
@@ -134,12 +134,13 @@ h1 {
 }
 
 .button {
-  width: 26%;
+  width: auto;
   height: 2vw;
   color: #000000;
   font-weight: 600;
   background-color: #f08bc8;
   margin: 1.5vw 0vw;
+  padding: 2vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,6 +238,10 @@ h1 {
   margin-bottom: 3vw;
 }
 
+#carrot-cake {
+  height: max-content;
+}
+
 #sorteoMensualColumn {
   text-align: justify;
   margin-left: 2vw;
@@ -258,13 +263,13 @@ h1 {
 }
 
 .form-control {
-  border: 0.15vw solid #f08bc8;
   width: 97.7%;
   margin: 0vw 1vw;
+  border-style: inset;
 }
 
 .form-label {
-  color: #a9262c;
+  font-weight: bold;
   margin: 0vw 1vw;
 }
 
@@ -275,15 +280,16 @@ h1 {
 }
 
 #sendButton {
-  width: 6.5%;
-  height: 2vw;
+  width: auto;
   color: #000000;
   font-weight: 600;
   background-color: #f08bc8;
   margin: 0vw 0vw 1vw 1vw;
+  padding: 1vh 2vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 #upperContact {
@@ -304,6 +310,10 @@ h1 {
   margin-bottom: 1vw;
 }
 
+#contactoMap {
+  width: 100%;
+}
+
 #socials p {
   margin-bottom: 1.5vw;
 }
@@ -312,7 +322,7 @@ h1 {
   width: 10%;
   height: auto;
   padding-right: 1vw;
-  margin-top: 1.25vw;
+  margin-bottom: 1.25vw;
 }
 
 #contacto {
@@ -335,7 +345,7 @@ h1 {
 }
 
 #upperFooter img {
-  height: 4.1vw;
+  height: 25%;
   width: auto;
 }
 
@@ -353,8 +363,12 @@ h1 {
   margin-right: 3vw;
 }
 
+#upperFooter iframe {
+  width: 24%;
+}
+
 #lowerFooter {
-  height: 1.8vw;
+  height: auto;
   width: 100%;
   background-color: #f08bc8;
   display: flex;
@@ -362,6 +376,118 @@ h1 {
 }
 
 #lowerFooter p {
-  margin: 1% 0.7%;
-  font-size: 0.77vw;
+  margin: 0.3% 0.7%;
+  font-size: 90%;
+}
+
+@media (max-width: 576px) {
+  #logo {
+    height: 4rem;
+  }
+
+  #hero {
+    height: 70vw;
+    flex-direction: column;
+  }
+  #hero img {
+    width: 30%;
+  }
+  #hero h1 {
+    font-size: 12vw;
+  }
+  #hero p {
+    text-align: center;
+    font-size: 4vw;
+  }
+  #hero2 {
+    height: 24vh;
+  }
+  #quienesSomos {
+    flex-wrap: wrap;
+  }
+  #quienesSomos img {
+    height: max-content;
+    width: 100%;
+    margin: 3vh 0vw 2vh 0vw;
+  }
+  #quienesText h2 {
+    margin-bottom: 2vh;
+  }
+  #indexRow {
+    flex-wrap: wrap;
+  }
+  .index-box {
+    width: 100%;
+    margin-bottom: 4vh;
+    padding-top: 4vw;
+  }
+  .index-box p {
+    padding: 1vw 9vw;
+  }
+  #sorteoMensual {
+    flex-wrap: wrap-reverse;
+    padding-left: 0vw;
+  }
+  #sorteoMensualColumn {
+    margin: 3vh 0vw 4vh 0vw;
+  }
+  #carrotCake {
+    width: 84.5%;
+    margin-bottom: 1vh;
+  }
+  #formularioDeInscripcion {
+    margin-bottom: 4vh;
+    padding: 2vh;
+  }
+  #sendButton {
+    justify-content: center;
+  }
+  #formButton {
+    justify-content: center;
+  }
+  #upperContact {
+    flex-wrap: wrap;
+    margin-top: 3vh;
+    justify-content: center;
+  }
+  #contactoMap {
+    width: 100%;
+  }
+  #socialMedia {
+    margin: 4vh 0vh 4vh 0vw;
+    display: flex;
+  }
+  #socialMedia p {
+    margin-bottom: 2vh;
+  }
+  #socials {
+    margin-bottom: 1vh;
+    text-align: center;
+  }
+  #socials img {
+    width: 20%;
+    margin-bottom: 2vh;
+  }
+  #formularioDeContacto {
+    margin-bottom: 4vh;
+    padding: 2vh;
+  }
+  #upperFooter {
+    flex-direction: column;
+    align-items: center;
+  }
+  #upperFooter iframe {
+    width: 90%;
+    height: 70%;
+  }
+  #upperFooter img {
+    height: 6vh;
+  }
+  #socialsFooter {
+    justify-content: center;
+    margin-top: 2vh;
+  }
+  #lowerFooter p {
+    font-size: 80%;
+  }
 }

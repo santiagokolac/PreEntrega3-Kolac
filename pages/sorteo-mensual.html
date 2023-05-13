@@ -14,6 +14,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Sorteo Mensual</title>
@@ -61,7 +65,7 @@
                   class="nav-link maroon"
                   id="active"
                   href="sorteo-mensual.html"
-                  >SORTEO MENSUAL</a
+                  >SORTEO</a
                 >
               </li>
               <li class="nav-item mx-5 ms-3">
@@ -74,10 +78,14 @@
     </header>
     <main>
       <section id="hero2">
-        <h1>Sorteo de Mayo</h1>
+        <h1 class="animate__animated animate__bounce">Sorteo de Mayo</h1>
       </section>
       <section id="sorteoMensual" class="gallery-images">
-        <img src="../images/02-carrot-cake.png" alt="carrot-cake" />
+        <img
+          src="../images/02-carrot-cake.png"
+          id="carrotCake"
+          alt="carrot-cake"
+        />
         <div id="sorteoMensualColumn">
           <p>
             Este mes de Mayo ganate una rica Carrot Cake. 100% integral, hecha
@@ -126,6 +134,16 @@
               id="exampleFormControlInput1"
               placeholder="código de área-número"
             />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Contanos en qué ocasión disfrutarías de esta carrot cake!</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
           </div>
           <div id="formButton">
             <input type="submit" value="ENVIAR" id="sendButton"">
