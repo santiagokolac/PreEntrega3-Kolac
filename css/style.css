@@ -432,6 +432,7 @@ h1 {
   }
   .card {
     margin: 4vw;
+    height: 100%;
   }
   .carta-column h2 {
     margin: 5vw 0vh 0vw 0vw;
@@ -453,6 +454,15 @@ h1 {
     --bs-btn-disabled-border-color: #f08bc8;
     border-radius: 0;
     width: 100%;
+  }
+  .carousel-indicators {
+    top: 96%;
+  }
+  .carousel-indicators .nonactive {
+    background-color: #ffc3e7 !important;
+  }
+  .carousel-indicators .active {
+    background-color: #f08bc8 !important;
   }
   #sorteoMensual {
     flex-wrap: wrap-reverse;
