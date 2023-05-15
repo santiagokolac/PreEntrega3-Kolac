@@ -10,7 +10,7 @@
 }
 
 .navbar {
-  height: 7rem;
+  height: auto;
   width: 100%;
   position: fixed;
   top: 0;
@@ -148,6 +148,11 @@ h1 {
   align-items: center;
 }
 
+.button:hover {
+  scale: 1.1;
+  color: #000000;
+}
+
 .carta-column {
   padding: 1vw 0vw;
   display: flex;
@@ -240,6 +245,7 @@ h1 {
 
 #carrotCake {
   width: 35%;
+  height: fit-content;
 }
 
 #sorteoMensualColumn {
@@ -268,6 +274,10 @@ h1 {
   border-style: inset;
 }
 
+.form-control:hover {
+  border: solid 0.2vh #f08bc8;
+}
+
 .form-label {
   font-weight: bold;
   margin: 0vw 1vw;
@@ -290,6 +300,11 @@ h1 {
   justify-content: center;
   align-items: center;
   border: none;
+}
+
+#sendButton:hover {
+  scale: 1.1;
+  color: #000000;
 }
 
 #upperContact {
@@ -325,6 +340,10 @@ h1 {
   margin-bottom: 1.25vw;
 }
 
+#socials img:hover {
+  scale: 1.2;
+}
+
 #contacto {
   margin: 0vw 4vw;
 }
@@ -347,6 +366,12 @@ h1 {
 #upperFooter img {
   height: 25%;
   width: auto;
+  opacity: 0.7;
+}
+
+#upperFooter img:hover {
+  scale: 1.1;
+  opacity: 1;
 }
 
 #upperFooter a {
@@ -385,12 +410,12 @@ h1 {
     height: 4rem;
   }
   .navbar {
-    height: 6rem;
+    height: auto;
   }
   #hero {
     height: 70vw;
     flex-direction: column;
-    margin-top: 6rem;
+    margin-top: 5.5rem;
   }
   #hero img {
     width: 30%;
@@ -404,7 +429,7 @@ h1 {
   }
   #hero2 {
     height: 24vh;
-    margin-top: 6rem;
+    margin-top: 5.5rem;
   }
   #quienesSomos {
     flex-wrap: wrap;
