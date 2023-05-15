@@ -464,6 +464,12 @@ h1 {
   .carousel-indicators .active {
     background-color: #f08bc8 !important;
   }
+  .carousel-control-prev {
+    top: -20%;
+  }
+  .carousel-control-next {
+    top: -20%;
+  }
   #sorteoMensual {
     flex-wrap: wrap-reverse;
     padding-left: 0vw;
