@@ -226,7 +226,6 @@ h1 {
 .gallery-images {
   height: auto;
   width: 100%;
-  padding: 1vh 0vw;
 }
 
 #sorteoMensual {
@@ -237,8 +236,8 @@ h1 {
   margin-bottom: 3vw;
 }
 
-#carrot-cake {
-  height: max-content;
+#carrotCake {
+  width: 35%;
 }
 
 #sorteoMensualColumn {
@@ -418,10 +417,13 @@ h1 {
   .index-box {
     width: 100%;
     margin-bottom: 4vh;
-    padding-top: 4vw;
+    padding: 4vw 0vw 6vw 0vw;
   }
   .index-box p {
-    padding: 1vw 9vw;
+    padding: 3vw 9vw;
+  }
+  .button {
+    height: 6vh;
   }
   #carta-desktop {
     display: none;
@@ -455,8 +457,11 @@ h1 {
     border-radius: 0;
     width: 100%;
   }
+  .carousel {
+    padding-bottom: 5vh;
+  }
   .carousel-indicators {
-    top: 96%;
+    top: 89%;
   }
   .carousel-indicators .nonactive {
     background-color: #ffc3e7 !important;
