@@ -219,6 +219,10 @@ h1 {
   background-color: #e0e0e0;
 }
 
+#carta-mobile {
+  display: none;
+}
+
 .gallery-images {
   height: auto;
   width: 100%;
@@ -418,6 +422,37 @@ h1 {
   }
   .index-box p {
     padding: 1vw 9vw;
+  }
+  #carta-desktop {
+    display: none;
+  }
+  #carta-mobile {
+    display: flex;
+    margin: 4vh 0vw;
+  }
+  .card {
+    margin: 4vw;
+  }
+  .carta-column h2 {
+    margin: 5vw 0vh 0vw 0vw;
+  }
+  .btn-primary {
+    --bs-btn-color: black;
+    --bs-btn-bg: #f08bc8;
+    --bs-btn-border-color: #f08bc8;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: #e7a924;
+    --bs-btn-hover-border-color: #e7a924;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: #f08bc8;
+    --bs-btn-active-border-color: #f08bc8;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: black;
+    --bs-btn-disabled-bg: #f08bc8;
+    --bs-btn-disabled-border-color: #f08bc8;
+    border-radius: 0;
+    width: 100%;
   }
   #sorteoMensual {
     flex-wrap: wrap-reverse;
