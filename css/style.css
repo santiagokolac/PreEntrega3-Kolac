@@ -369,6 +369,10 @@ h1 {
   flex-direction: row;
 }
 
+#upperFooter iframe {
+  padding: 1vh;
+}
+
 #upperFooter img {
   height: 25%;
   width: auto;
