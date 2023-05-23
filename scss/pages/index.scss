@@ -1,0 +1,70 @@
+#hero {
+  height: 36.5vw;
+  width: 100%;
+  background-color: $secondary-color;
+  margin-bottom: 3.1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  img {
+    height: max-content;
+    width: 24%;
+    padding-right: 5%;
+  }
+  p {
+    color: $quaternary-color;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+}
+
+#quienesSomos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0vh 8vw;
+  margin-bottom: 3.1vw;
+  img {
+    height: max-content;
+    width: 38%;
+  }
+}
+
+#quienesText {
+  text-align: justify;
+  margin-left: 2vw;
+  padding: 0vw 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h2 {
+    text-align: center;
+    margin-bottom: 1vw;
+  }
+}
+
+#indexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.index-box {
+  width: 50%;
+  padding: 2vw 1vw 1vw 1vw;
+  margin: 0vw 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 80%;
+    height: auto;
+    margin: 1.5vw 0vw;
+  }
+  p {
+    padding: 0vw 4vw;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,48 @@
+#upperFooter {
+  height: 309px;
+  width: 100%;
+  background-color: $secondary-color;
+  margin-top: 3.1vw;
+  display: flex;
+  flex-direction: row;
+  iframe {
+    padding: 1vh;
+    width: 24%;
+  }
+  img {
+    height: 25%;
+    width: auto;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    &:hover {
+      scale: 1.1;
+      opacity: 1;
+      transition: all 0.3 ease;
+    }
+  }
+  a {
+    padding-right: 2.5%;
+  }
+}
+
+#socialsFooter {
+  width: 74.2vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: right;
+  margin-right: 3vw;
+}
+
+#lowerFooter {
+  height: auto;
+  width: 100%;
+  background-color: $tertiary-color;
+  display: flex;
+  align-items: center;
+  p {
+    margin: 0.3% 0.7%;
+    font-size: 90%;
+  }
+}

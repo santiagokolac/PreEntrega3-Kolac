@@ -1,0 +1,20 @@
+.navbar {
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: $white-gray-bk;
+  box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
+  z-index: 4000;
+  #active {
+    text-decoration: underline;
+  }
+}
+
+#logo {
+  height: 5rem;
+  width: auto;
+  margin: 0.3vw 0vw 0.3vw 0.3vw;
+}

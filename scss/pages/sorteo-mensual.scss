@@ -1,0 +1,46 @@
+#sorteoMensual {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 8vw;
+  margin-bottom: 3vw;
+}
+
+#carrotCake {
+  width: 35%;
+  height: fit-content;
+}
+
+#sorteoMensualColumn {
+  text-align: justify;
+  margin-left: 2vw;
+  padding: 0vw 8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inscripcion {
+  margin: 0vw 15vw 0vw 8.5vw;
+}
+
+#formularioDeInscripcion {
+  background-color: $light-gray-bk;
+  width: 110%;
+  padding-top: 1vw;
+}
+
+.form-control {
+  width: 97.7%;
+  margin: 0vw 1vw;
+  border-style: inset;
+  &:hover {
+    border: solid 0.2vh $tertiary-color;
+  }
+}
+
+.form-label {
+  font-weight: bold;
+  margin: 0vw 1vw;
+}

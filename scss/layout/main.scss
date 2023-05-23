@@ -1,0 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.light-gray {
+  background-color: $light-gray-bk;
+}
+
+.dark-gray {
+  background-color: $dark-gray-bk;
+}
+
+body {
+  background-color: $white-gray-bk;
+}
+
+#hero2 {
+  height: 29vw;
+  width: 100%;
+  background-color: $secondary-color;
+  margin-bottom: 3.1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+h1 {
+  color: $primary-color;
+  font-family: "Margin";
+  font-size: 8vw;
+  letter-spacing: 0.5vw;
+}
+
+.maroon {
+  color: $primary-color !important;
+  font-weight: 600;
+}

@@ -1,0 +1,73 @@
+.button {
+  width: auto;
+  height: 2vw;
+  color: $senary-color;
+  font-weight: 600;
+  background-color: $tertiary-color;
+  margin: 1.5vw 0vw;
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  &:hover {
+    scale: 1.1;
+    transition: all 0.3s ease;
+    color: $senary-color;
+  }
+}
+
+.menu-buttons {
+  font-size: 1.3vw;
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  width: 50%;
+  color: $senary-color;
+  margin: 2vw 0%;
+  background-color: $tertiary-color;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 3000;
+  &:hover {
+    display: none;
+  }
+}
+
+.details {
+  width: 9%;
+  color: $senary-color;
+  margin: 2vw 0%;
+  background-color: $quinary-color;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+#formButton {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: start;
+}
+
+#sendButton {
+  width: auto;
+  color: $senary-color;
+  font-weight: 600;
+  background-color: $tertiary-color;
+  margin: 0vw 0vw 1vw 1vw;
+  padding: 1vh 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transition: all 0.3s ease;
+  &:hover {
+    scale: 1.1;
+    transition: all 0.3s ease;
+    color: $senary-color;
+  }
+}

@@ -2,11 +2,14 @@
   font-family: "Margin";
   src: url(../fonts/margin.otf);
 }
-
 * {
   font-family: "Poppins", sans-serif;
   margin: 0px;
   padding: 0px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .navbar {
@@ -20,13 +23,8 @@
   -moz-box-shadow: -1px 2px 29px 4px rgba(0, 0, 0, 0.14);
   z-index: 4000;
 }
-
-#active {
+.navbar #active {
   text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
 }
 
 #logo {
@@ -46,6 +44,16 @@ a {
   align-items: center;
   margin-top: 7rem;
 }
+#hero img {
+  height: max-content;
+  width: 24%;
+  padding-right: 5%;
+}
+#hero p {
+  color: #839e14;
+  font-size: 2vw;
+  font-weight: bold;
+}
 
 #hero2 {
   height: 29vw;
@@ -56,18 +64,6 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
-}
-
-#hero img {
-  height: max-content;
-  width: 24%;
-  padding-right: 5%;
-}
-
-#hero p {
-  color: #839e14;
-  font-size: 2vw;
-  font-weight: bold;
 }
 
 h1 {
@@ -82,6 +78,10 @@ h1 {
   font-weight: 600;
 }
 
+body {
+  background-color: #f9f9f9;
+}
+
 #quienesSomos {
   display: flex;
   flex-direction: row;
@@ -89,7 +89,6 @@ h1 {
   padding: 0vh 8vw;
   margin-bottom: 3.1vw;
 }
-
 #quienesSomos img {
   height: max-content;
   width: 38%;
@@ -103,7 +102,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
-
 #quienesText h2 {
   text-align: center;
   margin-bottom: 1vw;
@@ -123,13 +121,11 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-
 .index-box img {
   width: 80%;
   height: auto;
   margin: 1.5vw 0vw;
 }
-
 .index-box p {
   padding: 0vw 4vw;
   text-align: justify;
@@ -148,7 +144,6 @@ h1 {
   align-items: center;
   transition: all 0.3s ease;
 }
-
 .button:hover {
   scale: 1.1;
   transition: all 0.3s ease;
@@ -161,12 +156,10 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
-
 .carta-column h2 {
   display: flex;
   justify-content: center;
 }
-
 .carta-column h3 {
   font-size: 1.5vw;
 }
@@ -183,7 +176,6 @@ h1 {
   flex-direction: column;
   margin: 1.03vw;
 }
-
 .producto-individual img {
   height: auto;
   width: 18vw;
@@ -205,6 +197,9 @@ h1 {
   position: relative;
   z-index: 3000;
 }
+.price:hover {
+  display: none;
+}
 
 .details {
   width: 9%;
@@ -214,10 +209,6 @@ h1 {
   display: flex;
   justify-content: center;
   position: absolute;
-}
-
-.price:hover {
-  display: none;
 }
 
 .light-gray {
@@ -275,7 +266,6 @@ h1 {
   margin: 0vw 1vw;
   border-style: inset;
 }
-
 .form-control:hover {
   border: solid 0.2vh #f08bc8;
 }
@@ -304,7 +294,6 @@ h1 {
   border: none;
   transition: all 0.3s ease;
 }
-
 #sendButton:hover {
   scale: 1.1;
   transition: all 0.3s ease;
@@ -314,6 +303,9 @@ h1 {
 #upperContact {
   display: flex;
   flex-direction: row;
+}
+#upperContact p {
+  margin-bottom: 1vw;
 }
 
 .upper-contacto-box {
@@ -325,10 +317,6 @@ h1 {
   align-items: center;
 }
 
-#upperContact p {
-  margin-bottom: 1vw;
-}
-
 #contactoMap {
   width: 100%;
 }
@@ -336,7 +324,6 @@ h1 {
 #socials p {
   margin-bottom: 1.5vw;
 }
-
 #socials img {
   width: 10%;
   height: auto;
@@ -344,7 +331,6 @@ h1 {
   margin-bottom: 1.25vw;
   transition: all 0.3s ease;
 }
-
 #socials img:hover {
   scale: 1.2;
   transition: all 0.3s ease;
@@ -368,24 +354,21 @@ h1 {
   display: flex;
   flex-direction: row;
 }
-
 #upperFooter iframe {
   padding: 1vh;
+  width: 24%;
 }
-
 #upperFooter img {
   height: 25%;
   width: auto;
   opacity: 0.7;
   transition: all 0.3s ease;
 }
-
 #upperFooter img:hover {
   scale: 1.1;
   opacity: 1;
   transition: all 0.3 ease;
 }
-
 #upperFooter a {
   padding-right: 2.5%;
 }
@@ -400,10 +383,6 @@ h1 {
   margin-right: 3vw;
 }
 
-#upperFooter iframe {
-  width: 24%;
-}
-
 #lowerFooter {
   height: auto;
   width: 100%;
@@ -411,7 +390,6 @@ h1 {
   display: flex;
   align-items: center;
 }
-
 #lowerFooter p {
   margin: 0.3% 0.7%;
   font-size: 90%;
@@ -483,20 +461,20 @@ h1 {
     margin: 5vw 0vh 0vw 0vw;
   }
   .btn-primary {
-    --bs-btn-color: black;
-    --bs-btn-bg: #f08bc8;
-    --bs-btn-border-color: #f08bc8;
-    --bs-btn-hover-color: black;
-    --bs-btn-hover-bg: #e7a924;
-    --bs-btn-hover-border-color: #e7a924;
+    --bs-btn-color: $senary-color;
+    --bs-btn-bg: $tertiary-color;
+    --bs-btn-border-color: $tertiary-color;
+    --bs-btn-hover-color: $senary-color;
+    --bs-btn-hover-bg: $quinary-color;
+    --bs-btn-hover-border-color: $quinary-color;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: black;
-    --bs-btn-active-bg: #f08bc8;
-    --bs-btn-active-border-color: #f08bc8;
+    --bs-btn-active-color: $senary-color;
+    --bs-btn-active-bg: $tertiary-color;
+    --bs-btn-active-border-color: $tertiary-color;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: black;
-    --bs-btn-disabled-bg: #f08bc8;
-    --bs-btn-disabled-border-color: #f08bc8;
+    --bs-btn-disabled-color: $senary-color;
+    --bs-btn-disabled-bg: $tertiary-color;
+    --bs-btn-disabled-border-color: $tertiary-color;
     border-radius: 0;
     width: 100%;
   }
@@ -585,3 +563,5 @@ h1 {
     font-size: 80%;
   }
 }
+
+/*# sourceMappingURL=app.css.map */
