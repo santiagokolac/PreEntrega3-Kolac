@@ -203,15 +203,15 @@ h1 {
   opacity: 0.7;
   transition: all 0.3s ease;
 }
-@media (max-width: 576px) {
-  #upperFooter img {
-    height: 6vh;
-  }
-}
 #upperFooter img:hover {
   scale: 1.1;
   opacity: 1;
   transition: all 0.3 ease;
+}
+@media (max-width: 576px) {
+  #upperFooter img {
+    height: 6vh;
+  }
 }
 #upperFooter a {
   padding-right: 2.5%;
@@ -435,20 +435,20 @@ h1 {
 }
 @media (max-width: 576px) {
   #carta-mobile .btn-primary {
-    --bs-btn-color: $senary-color;
-    --bs-btn-bg: $tertiary-color;
-    --bs-btn-border-color: $tertiary-color;
-    --bs-btn-hover-color: $senary-color;
-    --bs-btn-hover-bg: $quinary-color;
-    --bs-btn-hover-border-color: $quinary-color;
+    --bs-btn-color: map-get($colors, senary);
+    --bs-btn-bg: map-get($colors, tertiary);
+    --bs-btn-border-color: map-get($colors, tertiary);
+    --bs-btn-hover-color: map-get($colors, senary);
+    --bs-btn-hover-bg: map-get($colors, quinary);
+    --bs-btn-hover-border-color: map-get($colors, quinary);
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: $senary-color;
-    --bs-btn-active-bg: $tertiary-color;
-    --bs-btn-active-border-color: $tertiary-color;
+    --bs-btn-active-color: map-get($colors, senary);
+    --bs-btn-active-bg: map-get($colors, tertiary);
+    --bs-btn-active-border-color: map-get($colors, tertiary);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: $senary-color;
-    --bs-btn-disabled-bg: $tertiary-color;
-    --bs-btn-disabled-border-color: $tertiary-color;
+    --bs-btn-disabled-color: map-get($colors, senary);
+    --bs-btn-disabled-bg: map-get($colors, tertiary);
+    --bs-btn-disabled-border-color: map-get($colors, tertiary);
     border-radius: 0;
     width: 100%;
   }
@@ -487,6 +487,11 @@ h1 {
 .gallery-images {
   height: auto;
   width: 100%;
+  transition: all 0.3s ease;
+}
+.gallery-images:hover {
+  scale: 1.02;
+  transition: all 0.3s ease;
 }
 
 #sorteoMensual {
@@ -614,10 +619,8 @@ h1 {
   transition: all 0.3s ease;
 }
 
-@media (max-width: 576px) {
-  #contacto {
-    margin: 0vw 4vw;
-  }
+#contacto {
+  margin: 0vw 4vw;
 }
 
 @media (max-width: 576px) {

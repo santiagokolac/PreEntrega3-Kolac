@@ -9,21 +9,21 @@ a {
 }
 
 .light-gray {
-  background-color: $light-gray-bk;
+  background-color: map-get($bk-colors, light-gray);
 }
 
 .dark-gray {
-  background-color: $dark-gray-bk;
+  background-color: map-get($bk-colors, dark-gray);
 }
 
 body {
-  background-color: $white-gray-bk;
+  background-color: map-get($bk-colors, white-gray);
 }
 
 #hero2 {
   height: 29vw;
   width: 100%;
-  background-color: $secondary-color;
+  background-color: map-get($colors, secondary);
   margin-bottom: 3.1vw;
   display: flex;
   justify-content: center;
@@ -36,13 +36,13 @@ body {
 }
 
 h1 {
-  color: $primary-color;
+  color: map-get($colors, primary);
   font-family: "Margin";
   font-size: 8vw;
   letter-spacing: 0.5vw;
 }
 
 .maroon {
-  color: $primary-color !important;
+  color: map-get($colors, primary) !important;
   font-weight: 600;
 }

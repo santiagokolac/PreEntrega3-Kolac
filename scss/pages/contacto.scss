@@ -50,14 +50,12 @@
 }
 
 #contacto {
-  @include mediaquery-mobile() {
-    margin: 0vw 4vw;
-  }
+  margin: 0vw 4vw;
 }
 
 #formularioDeContacto {
   @include mediaquery-mobile() {
-    background-color: $light-gray-bk;
+    background-color: map-get($bk-colors, light-gray);
     width: 100%;
     margin-bottom: 4vh;
     padding: 3vh 2vh 2vh 2vh;

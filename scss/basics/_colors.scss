@@ -1,10 +1,14 @@
-$primary-color: #a9262c;
-$secondary-color: #ffc3e7;
-$tertiary-color: #f08bc8;
-$quaternary-color: #839e14;
-$quinary-color: #e7a924;
-$senary-color: #000000;
+$colors: (
+  primary: #a9262c,
+  secondary: #ffc3e7,
+  tertiary: #f08bc8,
+  quaternary: #839e14,
+  quinary: #e7a924,
+  senary: #000000,
+);
 
-$white-gray-bk: #f9f9f9;
-$light-gray-bk: #eeeeee;
-$dark-gray-bk: #e0e0e0;
+$bk-colors: (
+  white-gray: #f9f9f9,
+  light-gray: #eeeeee,
+  dark-gray: #e0e0e0,
+);

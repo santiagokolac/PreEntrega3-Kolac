@@ -37,7 +37,7 @@
 }
 
 #formularioDeInscripcion {
-  background-color: $light-gray-bk;
+  background-color: map-get($bk-colors, light-gray);
   width: 110%;
   padding-top: 1vw;
   @include mediaquery-mobile() {
@@ -51,7 +51,7 @@
   margin: 0vw 1vw;
   border-style: inset;
   &:hover {
-    border: solid 0.2vh $tertiary-color;
+    border: solid 0.2vh map-get($colors, tertiary);
   }
 }
 

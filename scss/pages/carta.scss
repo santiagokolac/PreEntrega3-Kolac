@@ -50,20 +50,20 @@
   }
   .btn-primary {
     @include mediaquery-mobile() {
-      --bs-btn-color: $senary-color;
-      --bs-btn-bg: $tertiary-color;
-      --bs-btn-border-color: $tertiary-color;
-      --bs-btn-hover-color: $senary-color;
-      --bs-btn-hover-bg: $quinary-color;
-      --bs-btn-hover-border-color: $quinary-color;
+      --bs-btn-color: map-get($colors, senary);
+      --bs-btn-bg: map-get($colors, tertiary);
+      --bs-btn-border-color: map-get($colors, tertiary);
+      --bs-btn-hover-color: map-get($colors, senary);
+      --bs-btn-hover-bg: map-get($colors, quinary);
+      --bs-btn-hover-border-color: map-get($colors, quinary);
       --bs-btn-focus-shadow-rgb: 49, 132, 253;
-      --bs-btn-active-color: $senary-color;
-      --bs-btn-active-bg: $tertiary-color;
-      --bs-btn-active-border-color: $tertiary-color;
+      --bs-btn-active-color: map-get($colors, senary);
+      --bs-btn-active-bg: map-get($colors, tertiary);
+      --bs-btn-active-border-color: map-get($colors, tertiary);
       --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-      --bs-btn-disabled-color: $senary-color;
-      --bs-btn-disabled-bg: $tertiary-color;
-      --bs-btn-disabled-border-color: $tertiary-color;
+      --bs-btn-disabled-color: map-get($colors, senary);
+      --bs-btn-disabled-bg: map-get($colors, tertiary);
+      --bs-btn-disabled-border-color: map-get($colors, tertiary);
       border-radius: 0;
       width: 100%;
     }
@@ -80,12 +80,12 @@
   }
   .carousel-indicators .nonactive {
     @include mediaquery-mobile() {
-      background-color: $secondary-color !important;
+      background-color: map-get($colors, secondary) !important;
     }
   }
   .carousel-indicators .active {
     @include mediaquery-mobile() {
-      background-color: $tertiary-color !important;
+      background-color: map-get($colors, tertiary) !important;
     }
   }
   .carousel-control-prev {
