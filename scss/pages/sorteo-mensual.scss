@@ -4,11 +4,19 @@
   justify-content: center;
   padding-left: 8vw;
   margin-bottom: 3vw;
+  @include mediaquery-mobile() {
+    flex-wrap: wrap-reverse;
+    padding-left: 0vw;
+  }
 }
 
 #carrotCake {
   width: 35%;
   height: fit-content;
+  @include mediaquery-mobile() {
+    width: 84.5%;
+    margin-bottom: 1vh;
+  }
 }
 
 #sorteoMensualColumn {
@@ -19,6 +27,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @include mediaquery-mobile() {
+    margin: 3vh 0vw 4vh 0vw;
+  }
 }
 
 #inscripcion {
@@ -29,6 +40,10 @@
   background-color: $light-gray-bk;
   width: 110%;
   padding-top: 1vw;
+  @include mediaquery-mobile() {
+    margin-bottom: 4vh;
+    padding: 2vh;
+  }
 }
 
 .form-control {

@@ -1,6 +1,11 @@
 #upperContact {
   display: flex;
   flex-direction: row;
+  @include mediaquery-mobile() {
+    flex-wrap: wrap;
+    margin-top: 3vh;
+    justify-content: center;
+  }
   p {
     margin-bottom: 1vw;
   }
@@ -20,6 +25,10 @@
 }
 
 #socials {
+  @include mediaquery-mobile() {
+    margin-bottom: 1vh;
+    text-align: center;
+  }
   p {
     margin-bottom: 1.5vw;
   }
@@ -29,6 +38,10 @@
     padding-right: 1vw;
     margin-bottom: 1.25vw;
     transition: all 0.3s ease;
+    @include mediaquery-mobile() {
+      width: 20%;
+      margin-bottom: 2vh;
+    }
     &:hover {
       scale: 1.2;
       transition: all 0.3s ease;
@@ -37,11 +50,27 @@
 }
 
 #contacto {
-  margin: 0vw 4vw;
+  @include mediaquery-mobile() {
+    margin: 0vw 4vw;
+  }
 }
 
 #formularioDeContacto {
-  background-color: $light-gray-bk;
-  width: 100%;
-  padding-top: 1vw;
+  @include mediaquery-mobile() {
+    background-color: $light-gray-bk;
+    width: 100%;
+    margin-bottom: 4vh;
+    padding: 3vh 2vh 2vh 2vh;
+  }
+}
+#socialMedia {
+  @include mediaquery-mobile() {
+    margin: 4vh 0vh 5vh 0vw;
+    display: flex;
+  }
+  p {
+    @include mediaquery-mobile() {
+      margin-bottom: 2vh;
+    }
+  }
 }

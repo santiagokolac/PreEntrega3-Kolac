@@ -6,6 +6,9 @@
   h2 {
     display: flex;
     justify-content: center;
+    @include mediaquery-mobile() {
+      margin: 5vw 0vh 0vw 0vw;
+    }
   }
   h3 {
     font-size: 1.5vw;
@@ -29,6 +32,70 @@
   }
 }
 
+#carta-desktop {
+  @include mediaquery-mobile() {
+    display: none;
+  }
+}
+
 #carta-mobile {
   display: none;
+  @include mediaquery-mobile() {
+    display: flex;
+    margin: 4vh 0vw;
+  }
+  .card {
+    margin: 4vw;
+    height: 100%;
+  }
+  .btn-primary {
+    @include mediaquery-mobile() {
+      --bs-btn-color: $senary-color;
+      --bs-btn-bg: $tertiary-color;
+      --bs-btn-border-color: $tertiary-color;
+      --bs-btn-hover-color: $senary-color;
+      --bs-btn-hover-bg: $quinary-color;
+      --bs-btn-hover-border-color: $quinary-color;
+      --bs-btn-focus-shadow-rgb: 49, 132, 253;
+      --bs-btn-active-color: $senary-color;
+      --bs-btn-active-bg: $tertiary-color;
+      --bs-btn-active-border-color: $tertiary-color;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: $senary-color;
+      --bs-btn-disabled-bg: $tertiary-color;
+      --bs-btn-disabled-border-color: $tertiary-color;
+      border-radius: 0;
+      width: 100%;
+    }
+  }
+  .carousel {
+    @include mediaquery-mobile() {
+      padding-bottom: 5vh;
+    }
+  }
+  .carousel-indicators {
+    @include mediaquery-mobile() {
+      top: 89%;
+    }
+  }
+  .carousel-indicators .nonactive {
+    @include mediaquery-mobile() {
+      background-color: $secondary-color !important;
+    }
+  }
+  .carousel-indicators .active {
+    @include mediaquery-mobile() {
+      background-color: $tertiary-color !important;
+    }
+  }
+  .carousel-control-prev {
+    @include mediaquery-mobile() {
+      top: -20%;
+    }
+  }
+  .carousel-control-next {
+    @include mediaquery-mobile() {
+      top: -20%;
+    }
+  }
 }

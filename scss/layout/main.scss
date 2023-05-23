@@ -29,6 +29,10 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
+  @include mediaquery-mobile() {
+    height: 24vh;
+    margin-top: 5.5rem;
+  }
 }
 
 h1 {
