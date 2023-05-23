@@ -54,21 +54,18 @@
 }
 
 #formularioDeContacto {
-  @include mediaquery-mobile() {
-    background-color: map-get($bk-colors, light-gray);
-    width: 100%;
-    margin-bottom: 4vh;
-    padding: 3vh 2vh 2vh 2vh;
-  }
+  background-color: map-get($bk-colors, light-gray);
+  width: 100%;
+  margin-bottom: 4vh;
+  padding: 3vh 2vh 2vh 2vh;
 }
+
 #socialMedia {
+  display: flex;
   @include mediaquery-mobile() {
     margin: 4vh 0vh 5vh 0vw;
-    display: flex;
   }
   p {
-    @include mediaquery-mobile() {
-      margin-bottom: 2vh;
-    }
+    margin-bottom: 2vh;
   }
 }

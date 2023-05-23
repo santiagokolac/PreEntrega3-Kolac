@@ -623,25 +623,23 @@ h1 {
   margin: 0vw 4vw;
 }
 
-@media (max-width: 576px) {
-  #formularioDeContacto {
-    background-color: #eeeeee;
-    width: 100%;
-    margin-bottom: 4vh;
-    padding: 3vh 2vh 2vh 2vh;
-  }
+#formularioDeContacto {
+  background-color: #eeeeee;
+  width: 100%;
+  margin-bottom: 4vh;
+  padding: 3vh 2vh 2vh 2vh;
 }
 
+#socialMedia {
+  display: flex;
+}
 @media (max-width: 576px) {
   #socialMedia {
     margin: 4vh 0vh 5vh 0vw;
-    display: flex;
   }
 }
-@media (max-width: 576px) {
-  #socialMedia p {
-    margin-bottom: 2vh;
-  }
+#socialMedia p {
+  margin-bottom: 2vh;
 }
 
 /*# sourceMappingURL=app.css.map */
