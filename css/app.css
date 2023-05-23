@@ -2,12 +2,40 @@
   font-family: "Margin";
   src: url(../fonts/margin.otf);
 }
+.button-primary {
+  background-color: #a9262c;
+  color: #000000;
+}
+
+.button-secondary {
+  background-color: #ffc3e7;
+  color: #000000;
+}
+
+.button-tertiary {
+  background-color: #f08bc8;
+  color: #000000;
+}
+
+.button-quaternary {
+  background-color: #839e14;
+  color: #000000;
+}
+
+.button-quinary {
+  background-color: #e7a924;
+  color: #000000;
+}
+
+.button-senary {
+  background-color: #000000;
+  color: #000000;
+}
+
 .button {
   width: auto;
   height: 2vw;
-  color: #000000;
   font-weight: 600;
-  background-color: #f08bc8;
   margin: 1.5vw 0vw;
   padding: 2vh;
   display: flex;
@@ -34,9 +62,7 @@
 
 .price {
   width: 50%;
-  color: #000000;
   margin: 2vw 0%;
-  background-color: #f08bc8;
   display: flex;
   justify-content: center;
   position: relative;
@@ -48,9 +74,7 @@
 
 .details {
   width: 9%;
-  color: #000000;
   margin: 2vw 0%;
-  background-color: #e7a924;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -69,9 +93,7 @@
 
 #sendButton {
   width: auto;
-  color: #000000;
   font-weight: 600;
-  background-color: #f08bc8;
   margin: 0vw 0vw 1vw 1vw;
   padding: 1vh 2vh;
   display: flex;

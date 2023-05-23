@@ -1,9 +1,14 @@
+@each $color-name, $color in $colors {
+  .button-#{$color-name} {
+    background-color: $color;
+    color: map-get($colors, senary);
+  }
+}
+
 .button {
   width: auto;
   height: 2vw;
-  color: map-get($colors, senary);
   font-weight: 600;
-  background-color: map-get($colors, tertiary);
   margin: 1.5vw 0vw;
   padding: 2vh;
   display: flex;
@@ -28,9 +33,7 @@
 
 .price {
   width: 50%;
-  color: map-get($colors, senary);
   margin: 2vw 0%;
-  background-color: map-get($colors, tertiary);
   display: flex;
   justify-content: center;
   position: relative;
@@ -42,9 +45,7 @@
 
 .details {
   width: 9%;
-  color: map-get($colors, senary);
   margin: 2vw 0%;
-  background-color: map-get($colors, quinary);
   display: flex;
   justify-content: center;
   position: absolute;
@@ -61,9 +62,7 @@
 
 #sendButton {
   width: auto;
-  color: map-get($colors, senary);
   font-weight: 600;
-  background-color: map-get($colors, tertiary);
   margin: 0vw 0vw 1vw 1vw;
   padding: 1vh 2vh;
   display: flex;
