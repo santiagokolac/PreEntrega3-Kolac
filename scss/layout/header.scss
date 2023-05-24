@@ -20,7 +20,12 @@
   height: 5rem;
   width: auto;
   margin: 0.3vw 0vw 0.3vw 0.3vw;
+  transition: all 0.3s ease;
   @include mediaquery-mobile() {
     height: 4rem;
+  }
+  &:hover {
+    scale: 1.1;
+    transition: all 0.3s ease;
   }
 }
