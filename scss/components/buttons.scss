@@ -47,6 +47,27 @@
   position: absolute;
 }
 
+.btn-primary {
+  @include mediaquery-mobile() {
+    --bs-btn-color: map-get($colors, senary);
+    --bs-btn-bg: #e7a924;
+    --bs-btn-border-color: map-get($colors, quinary);
+    --bs-btn-hover-color: map-get($colors, senary);
+    --bs-btn-hover-bg: #e7a924;
+    --bs-btn-hover-border-color: map-get($colors, quinary);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: map-get($colors, senary);
+    --bs-btn-active-bg: map-get($colors, quinary);
+    --bs-btn-active-border-color: map-get($colors, quinary);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: map-get($colors, senary);
+    --bs-btn-disabled-bg: map-get($colors, quinary);
+    --bs-btn-disabled-border-color: map-get($colors, quinary);
+    border-radius: 0;
+    width: 100%;
+  }
+}
+
 #formButton {
   margin-top: 1vw;
   display: flex;
