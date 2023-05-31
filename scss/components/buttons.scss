@@ -11,12 +11,13 @@
   width: auto;
   height: 2vw;
   font-weight: 600;
-  margin: 2.5vw 0vw 0vw 0vw;
+  margin: 1.5vw 0vw;
   padding: 2vh;
   align-items: center;
   transition: all 0.3s ease;
   @include mediaquery-mobile() {
     height: 6vh;
+    margin: 2.5vw 0vw 0vw 0vw;
   }
   &:hover {
     scale: 1.1;
