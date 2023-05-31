@@ -236,12 +236,11 @@ h1 {
 }
 #upperFooter iframe {
   padding: 1vh;
-  width: 24%;
 }
 @media (max-width: 576px) {
   #upperFooter iframe {
     width: 90%;
-    height: 70%;
+    height: 75%;
   }
 }
 #upperFooter img {
@@ -276,7 +275,7 @@ h1 {
 @media (max-width: 576px) {
   #socialsFooter {
     justify-content: center;
-    margin-top: 2vh;
+    margin-top: 1vh;
   }
 }
 
