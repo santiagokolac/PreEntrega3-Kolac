@@ -28,10 +28,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
+  margin-top: 5rem;
   @include mediaquery-mobile() {
     height: 24vh;
-    margin-top: 5.5rem;
+    margin-top: 4.5rem;
   }
 }
 

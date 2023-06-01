@@ -155,15 +155,10 @@
 }
 
 #logo {
-  height: 5rem;
+  height: 3rem;
   width: auto;
   margin: 0.3vw 0vw 0.3vw 0.3vw;
   transition: all 0.3s ease;
-}
-@media (max-width: 576px) {
-  #logo {
-    height: 4rem;
-  }
 }
 #logo:hover {
   scale: 1.1;
@@ -200,12 +195,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 @media (max-width: 576px) {
   #hero2 {
     height: 24vh;
-    margin-top: 5.5rem;
+    margin-top: 4.5rem;
   }
 }
 
@@ -311,13 +306,13 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 @media (max-width: 576px) {
   #hero {
     height: 70vw;
     flex-direction: column;
-    margin-top: 5.5rem;
+    margin-top: 4.5rem;
   }
 }
 #hero img {
@@ -401,9 +396,9 @@ h1 {
 }
 
 .index-box {
-  width: 50%;
+  width: 33%;
   padding: 2vw 1vw 1vw 1vw;
-  margin: 0vw 5vw;
+  margin: 0vw 1.5vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -431,7 +426,7 @@ h1 {
 }
 
 .carta-column {
-  padding: 1vw 0vw;
+  padding: 2vw 0vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -439,10 +434,13 @@ h1 {
 .carta-column h2 {
   display: flex;
   justify-content: center;
+  padding: 2vh;
+  font-size: 5vh;
 }
 @media (max-width: 576px) {
   .carta-column h2 {
     margin: 5vw 0vh 0vw 0vw;
+    font-size: 4vh;
   }
 }
 .carta-column h3 {
@@ -464,6 +462,9 @@ h1 {
 .producto-individual img {
   height: auto;
   width: 18vw;
+}
+.producto-individual h3 {
+  align-self: center;
 }
 
 @media (max-width: 576px) {
@@ -516,14 +517,41 @@ h1 {
   }
 }
 
-.gallery-images {
+.gallery-column {
+  background-color: transparent;
+  position: relative;
+}
+.gallery-column .gallery-images {
   height: auto;
   width: 100%;
-  transition: all 0.3s ease;
 }
-.gallery-images:hover {
-  scale: 1.02;
-  transition: all 0.3s ease;
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  transition: all 0.8s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay img {
+  width: 80px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(207deg) brightness(102%) contrast(105%);
+  display: none;
+}
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all 0.8s ease;
+}
+.overlay:hover img {
+  width: 80px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(207deg) brightness(102%) contrast(105%);
+  display: inline;
 }
 
 #sorteoMensual {

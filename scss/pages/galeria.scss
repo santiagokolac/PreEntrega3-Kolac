@@ -1,9 +1,38 @@
-.gallery-images {
-  height: auto;
+.gallery-column {
+  background-color: transparent;
+  position: relative;
+  .gallery-images {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.overlay {
   width: 100%;
-  transition: all 0.3s ease;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  transition: all 0.8s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 80px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(207deg)
+      brightness(102%) contrast(105%);
+    display: none;
+  }
   &:hover {
-    scale: 1.02;
-    transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.8s ease;
+    img {
+      width: 80px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(207deg)
+        brightness(102%) contrast(105%);
+      display: inline;
+    }
   }
 }
