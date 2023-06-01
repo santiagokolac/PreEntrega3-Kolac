@@ -16,7 +16,7 @@
     padding: 0.5vh 0vh 0vh 0.8vw;
     @include mediaquery-mobile() {
       font-size: 85%;
-      padding-top: 6vh;
+      padding-top: 4vh;
       text-align: center;
       margin-bottom: 0;
     }
@@ -36,8 +36,8 @@
       transition: all 0.3 ease;
     }
     @include mediaquery-mobile() {
-      height: 14vh;
-      padding-bottom: 7vh;
+      height: 10vh;
+      padding-bottom: 3vh;
     }
   }
   a {
