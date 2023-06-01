@@ -42,6 +42,7 @@ h1 {
   letter-spacing: 0.5vw;
   @include mediaquery-mobile() {
     font-size: 15vw;
+    margin-bottom: 0rem;
   }
 }
 
