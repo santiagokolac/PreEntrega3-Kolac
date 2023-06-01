@@ -1,13 +1,16 @@
 .carta-column {
-  padding: 1vw 0vw;
+  padding: 2vw 0vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   h2 {
     display: flex;
     justify-content: center;
+    padding: 2vh;
+    font-size: 5vh;
     @include mediaquery-mobile() {
       margin: 5vw 0vh 0vw 0vw;
+      font-size: 4vh;
     }
   }
   h3 {
@@ -29,6 +32,9 @@
   img {
     height: auto;
     width: 18vw;
+  }
+  h3 {
+    align-self: center;
   }
 }
 
