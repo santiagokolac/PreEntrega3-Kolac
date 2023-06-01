@@ -212,7 +212,7 @@ body {
 h1 {
   color: #a9262c;
   font-family: "Margin";
-  font-size: 12vw;
+  font-size: 9vw;
   letter-spacing: 0.5vw;
 }
 @media (max-width: 576px) {
