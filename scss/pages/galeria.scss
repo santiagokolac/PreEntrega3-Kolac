@@ -29,6 +29,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     transition: all 0.8s ease;
     img {
+<<<<<<< HEAD
       width: 10%;
       filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(207deg)
         brightness(102%) contrast(105%);
@@ -36,6 +37,12 @@
       @include mediaquery-mobile() {
         width: 20%;
       }
+=======
+      width: 80px;
+      filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(207deg)
+        brightness(102%) contrast(105%);
+      display: inline;
+>>>>>>> 74147ac913f76b81b3de6710f462cfce72c2485f
     }
   }
 }
