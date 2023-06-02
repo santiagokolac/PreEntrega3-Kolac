@@ -25,10 +25,11 @@
     margin-left: 2.5%;
   }
   img {
-    width: 10%;
+    width: 12%;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(207deg)
       brightness(102%) contrast(105%);
     display: none;
+    padding: 0vh 0.4vw;
   }
   &:hover {
     background-color: rgba(0, 0, 0, 0.6);
