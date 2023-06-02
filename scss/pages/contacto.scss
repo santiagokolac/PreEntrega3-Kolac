@@ -11,7 +11,7 @@
   }
 }
 
-.upper-contacto-box {
+.upper-contact-box {
   width: 90%;
   padding: 1vw;
   margin: 0vw 3vw 1vw 3vw;
@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-#contactoMap {
+#contactMap {
   width: 100%;
 }
 
@@ -49,11 +49,11 @@
   }
 }
 
-#contacto {
+#contact {
   margin: 0vw 4vw;
 }
 
-#formularioDeContacto {
+#contactForm {
   background-color: map-get($bk-colors, light-gray);
   width: 100%;
   margin-bottom: 4vh;

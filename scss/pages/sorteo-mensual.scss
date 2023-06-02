@@ -1,4 +1,4 @@
-#sorteoMensual {
+#monthlyRaffle {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -19,7 +19,7 @@
   }
 }
 
-#sorteoMensualColumn {
+#monthlyRaffleColumn {
   text-align: justify;
   margin-left: 2vw;
   padding: 0vw 8vw;
@@ -32,11 +32,11 @@
   }
 }
 
-#inscripcion {
+#inscription {
   margin: 0vw 15vw 0vw 8.5vw;
 }
 
-#formularioDeInscripcion {
+#inscriptionForm {
   background-color: map-get($bk-colors, light-gray);
   width: 110%;
   padding-top: 1vw;

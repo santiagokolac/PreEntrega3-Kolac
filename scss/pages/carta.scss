@@ -1,4 +1,4 @@
-.carta-column {
+.menu-column {
   padding: 2vw 0vw;
   display: flex;
   flex-direction: column;
@@ -18,14 +18,14 @@
   }
 }
 
-.carta-row {
+.menu-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.producto-individual {
+.individual-product {
   display: flex;
   flex-direction: column;
   margin: 1.03vw;
@@ -38,13 +38,13 @@
   }
 }
 
-#carta-desktop {
+#menu-desktop {
   @include mediaquery-mobile() {
     display: none;
   }
 }
 
-#carta-mobile {
+#menu-mobile {
   display: none;
   @include mediaquery-mobile() {
     display: flex;

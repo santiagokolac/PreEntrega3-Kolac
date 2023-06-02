@@ -359,7 +359,7 @@ h1 {
   }
 }
 
-#quienesSomos {
+#whoWeAre {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -367,23 +367,23 @@ h1 {
   margin-bottom: 3.1vw;
 }
 @media (max-width: 576px) {
-  #quienesSomos {
+  #whoWeAre {
     flex-wrap: wrap;
   }
 }
-#quienesSomos img {
+#whoWeAre img {
   height: max-content;
   width: 38%;
 }
 @media (max-width: 576px) {
-  #quienesSomos img {
+  #whoWeAre img {
     height: max-content;
     width: 100%;
     margin: 3vh 0vw 2vh 0vw;
   }
 }
 
-#quienesText {
+#whoWeAreText {
   text-align: justify;
   margin-left: 2vw;
   padding: 0vw 8vw;
@@ -391,12 +391,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
-#quienesText h2 {
+#whoWeAreText h2 {
   text-align: center;
   margin-bottom: 1vw;
 }
 @media (max-width: 576px) {
-  #quienesText h2 {
+  #whoWeAreText h2 {
     margin-bottom: 2vh;
   }
 }
@@ -442,94 +442,94 @@ h1 {
   }
 }
 
-.carta-column {
+.menu-column {
   padding: 2vw 0vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.carta-column h2 {
+.menu-column h2 {
   display: flex;
   justify-content: center;
   padding: 2vh;
   font-size: 5vh;
 }
 @media (max-width: 576px) {
-  .carta-column h2 {
+  .menu-column h2 {
     margin: 5vw 0vh 0vw 0vw;
     font-size: 4vh;
   }
 }
-.carta-column h3 {
+.menu-column h3 {
   font-size: 1.5vw;
 }
 
-.carta-row {
+.menu-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.producto-individual {
+.individual-product {
   display: flex;
   flex-direction: column;
   margin: 1.03vw;
 }
-.producto-individual img {
+.individual-product img {
   height: auto;
   width: 18vw;
 }
-.producto-individual h3 {
+.individual-product h3 {
   align-self: center;
 }
 
 @media (max-width: 576px) {
-  #carta-desktop {
+  #menu-desktop {
     display: none;
   }
 }
 
-#carta-mobile {
+#menu-mobile {
   display: none;
 }
 @media (max-width: 576px) {
-  #carta-mobile {
+  #menu-mobile {
     display: flex;
     margin: 4vh 0vw;
   }
 }
-#carta-mobile .card {
+#menu-mobile .card {
   margin: 4vw;
   height: 100%;
 }
 @media (max-width: 576px) {
-  #carta-mobile .carousel {
+  #menu-mobile .carousel {
     padding-bottom: 5vh;
   }
 }
 @media (max-width: 576px) {
-  #carta-mobile .carousel-indicators {
+  #menu-mobile .carousel-indicators {
     top: 89%;
   }
 }
 @media (max-width: 576px) {
-  #carta-mobile .carousel-indicators .nonactive {
+  #menu-mobile .carousel-indicators .nonactive {
     background-color: #ffc3e7 !important;
   }
 }
 @media (max-width: 576px) {
-  #carta-mobile .carousel-indicators .active {
+  #menu-mobile .carousel-indicators .active {
     background-color: #f08bc8 !important;
   }
 }
 @media (max-width: 576px) {
-  #carta-mobile .carousel-control-prev {
+  #menu-mobile .carousel-control-prev {
     top: -20%;
   }
 }
 @media (max-width: 576px) {
-  #carta-mobile .carousel-control-next {
+  #menu-mobile .carousel-control-next {
     top: -20%;
   }
 }
@@ -583,7 +583,7 @@ h1 {
   }
 }
 
-#sorteoMensual {
+#monthlyRaffle {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -591,7 +591,7 @@ h1 {
   margin-bottom: 3vw;
 }
 @media (max-width: 576px) {
-  #sorteoMensual {
+  #monthlyRaffle {
     flex-wrap: wrap-reverse;
     padding-left: 0vw;
   }
@@ -608,7 +608,7 @@ h1 {
   }
 }
 
-#sorteoMensualColumn {
+#monthlyRaffleColumn {
   text-align: justify;
   margin-left: 2vw;
   padding: 0vw 8vw;
@@ -618,22 +618,22 @@ h1 {
   align-items: center;
 }
 @media (max-width: 576px) {
-  #sorteoMensualColumn {
+  #monthlyRaffleColumn {
     margin: 3vh 0vw 4vh 0vw;
   }
 }
 
-#inscripcion {
+#inscription {
   margin: 0vw 15vw 0vw 8.5vw;
 }
 
-#formularioDeInscripcion {
+#inscriptionForm {
   background-color: #eeeeee;
   width: 110%;
   padding-top: 1vw;
 }
 @media (max-width: 576px) {
-  #formularioDeInscripcion {
+  #inscriptionForm {
     margin-bottom: 4vh;
     padding: 2vh;
   }
@@ -668,7 +668,7 @@ h1 {
   margin-bottom: 1vw;
 }
 
-.upper-contacto-box {
+.upper-contact-box {
   width: 90%;
   padding: 1vw;
   margin: 0vw 3vw 1vw 3vw;
@@ -677,7 +677,7 @@ h1 {
   align-items: center;
 }
 
-#contactoMap {
+#contactMap {
   width: 100%;
 }
 
@@ -708,11 +708,11 @@ h1 {
   transition: all 0.3s ease;
 }
 
-#contacto {
+#contact {
   margin: 0vw 4vw;
 }
 
-#formularioDeContacto {
+#contactForm {
   background-color: #eeeeee;
   width: 100%;
   margin-bottom: 4vh;
